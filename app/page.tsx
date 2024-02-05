@@ -64,11 +64,19 @@ function Home() {
             <div className="chocs"></div>
             <div className="top"></div>
           </div>
+          
           <div className="candles" onClick={handleCandleClick}>
-            <div className="flame" style={{ opacity: flamesVisible ? 1 : 0 }}></div>
-            <div className="flame2" style={{ opacity: flamesVisible ? 1 : 0 }}></div>
-            <div className="flame3" style={{ opacity: flamesVisible ? 1 : 0 }}></div>
-            <div className="text">Happy Birthday!</div>
+            <div className="flame" style={{ 
+              opacity: flamesVisible ? 1 : 0 
+            }}></div>
+            <div className="flame2" style={{ 
+              opacity: flamesVisible ? 1 : 0 
+            }}></div>
+            <div className="flame3" style={{ 
+              opacity: flamesVisible ? 1 : 0 
+            }}></div>
+
+              <div className="text">Happy Birthday!</div>
             <div className="shadows"></div>
           </div>
         </div>
